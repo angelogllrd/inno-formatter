@@ -1,4 +1,4 @@
-# innosetup-formater
+# innosetup-formatter
 
 [Inno Setup](https://jrsoftware.org/isinfo.php) genera un script previo a la compilación **para obtener el instalador de nuestro programa Python**, pero antes de compilar es necesario **modificar las líneas correspondientes a las carpetas de nuestro proyecto** de la siguiente forma, carpeta por carpeta:
 
