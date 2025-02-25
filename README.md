@@ -1,10 +1,10 @@
-# innosetup-formatter
+# inno-formatter
 
 [Inno Setup](https://jrsoftware.org/isinfo.php) genera un script previo a la compilación **para obtener el instalador de nuestro programa Python**, pero antes de compilar es necesario **modificar las líneas correspondientes a las carpetas de nuestro proyecto** de la siguiente forma, carpeta por carpeta:
 
 ![image](https://github.com/user-attachments/assets/3a29a25c-db91-4085-8dd2-6148b408c1f8)
 
-`innosetup-formater.py` es un script que hace las modificaciones de forma **automática**, ahorrándonos hacerlo línea por línea.
+`inno-formater.py` es un script que hace las modificaciones de forma **automática**, ahorrándonos hacerlo línea por línea.
 
 ### Requisitos
 * pyperclip (https://pypi.org/project/pyperclip/)
