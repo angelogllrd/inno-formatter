@@ -2,6 +2,8 @@
 # Formatea el script de creación del instalador de Inno Setup para solucionar
 # el problema de las carpetas, y lo copia al portapapeles.
 
+# By Angelo Gallardi
+
 import re, pyperclip
 
 # Obtengo el texto del portapapeles
