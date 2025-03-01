@@ -11,8 +11,14 @@
 
 ### Pasos para usarlo
 1. Copiar el script generado por Inno Setup al finalizar el Script Wizard.
+
+   ![image](https://github.com/user-attachments/assets/6cc2bac5-4047-45ce-8f01-03efff674a21)
+   
 2. Abrir la consola en la carpeta de `inno-formatter.py` y ejecutar:
    ```
    $ python inno-formatter.py
-   ```
+   ```   
 3. Pegar el script formateado que se copió al portapapeles en Inno Setup, reemplazando el original.
+   
+   ![image](https://github.com/user-attachments/assets/a82bae10-2e2d-4298-a616-c3b2d36e35dd)
+
