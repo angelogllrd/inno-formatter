@@ -6,8 +6,8 @@
 
 1. **Soluciona el problema de las carpetas:** Modifica las líneas correspondientes a las subcarpetas de nuestro proyecto, corrigiendo la ruta de destino (reemplaza `{app}` por `{app}/nombre_carpeta`).
    ![image](https://github.com/user-attachments/assets/3a29a25c-db91-4085-8dd2-6148b408c1f8)
-2. **Ícono en el escritorio por defecto:** Elimina el flag `unchecked` para que la opción de crear un acceso directo en el escritorio ya venga marcada para el usuario.
-3. **Ejecución en modo silencioso:** Quita la restricción `skipifsilent` para que el programa se inicie automáticamente al terminar la instalación, incluso si el instalador fue ejecutado de forma desatendida (parámetro `/SILENT`).
+2. **Ícono en el escritorio por defecto:** Elimina el flag `unchecked` para que la opción de crear un acceso directo en el escritorio ya venga marcada (util para instalación con `/SILENT`).
+3. **Ejecución en modo silencioso:** Quita la restricción `skipifsilent` para que el programa se inicie automáticamente al terminar la instalación si fué ejecutado con el parámetro `/SILENT`).
 
 ### Requisitos
 * pyperclip (https://pypi.org/project/pyperclip/)
